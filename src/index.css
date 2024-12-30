@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #000000;
+  color: whitesmoke;
+}
+
+ /* import { useEffect, useState } from "react"
+ import { useCounterState } from "./store
+ const App = () => {
+   const {count, increment, decrement, reset} = useCounterState()
+   const [inputValue, setInputValue] = useState<number>(0
+   const handleNumberIncrement = ()=> {
+     const currentValue = useCounterState.getState().count
+     useCounterState.setState({count: currentValue + inputValue}
+     console.log("Update count:", useCounterState.getState().count)
+   }
+   // function cou() {
+   //   const co = useCounterState.getState().count
+   //   console.log(co)
+   // }
+   // useEffect(()=> {
+   //  cou()
+   // }, [])
+   return (
+     <div>
+       {count}
+       <div>
+         <button onClick={increment}>Increment</button>
+         <button onClick={decrement}>Decrement</button>
+         <button onClick={reset}>Reset</button
+         <input value={inputValue} onChange={(e)=> setInputValue(+e.target.value)} className="border" type="number" placeholder="increase" /> <button onClick={handleNumberIncrement}>Increase by number</button>
+       </div>
+     </div>
+   )
+ 
+ export default App */
